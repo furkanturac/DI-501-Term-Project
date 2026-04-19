@@ -51,12 +51,7 @@ jupyter notebook
 
 Then open `01_data_exploration.ipynb`.
 
-## Results (Phase 1 Baseline)
-
-| Strategy | Macro-F1 | Balanced Accuracy |
-|----------|----------|-------------------|
-| Majority class | — | — |
-| Stratified random | 33.68% | 33.3% |
+## Results
 
 Popularity was binned into three tiers (Low / Medium / High) using tertile cutpoints. Baseline results confirm the task is non-trivial and motivate feature-based models in later phases.
 
