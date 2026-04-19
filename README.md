@@ -49,7 +49,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Then open `01_data_exploration.ipynb`.
+Then open `data_exploration.ipynb`.
 
 ## Results
 
