@@ -26,11 +26,6 @@ due 14 June 2026) will add feature engineering, two trained classifiers
 with hyper-parameter tuning, the formal hypothesis test, and an
 interpretability analysis.
 
-| Phase | Deliverables                             | Deadline       |
-| :---: | ---------------------------------------- | -------------- |
-|   1   | Interim report + Phase 1 replication zip | 19 Apr 2026    |
-|   2   | Final paper + Phase 2 replication zip    | 14 Jun 2026    |
-
 ---
 
 ## Research Questions
@@ -103,7 +98,7 @@ statistically significant margin, following the protocol of Demšar (JMLR,
 
 ```
 di501_project/
-├── data/
+├── data/                           (do not forget to create after download the dataset)
 ├── notebooks/
 │   └── data_exploration.ipynb      # Phase 1 data profiling
 ├── reports/
@@ -134,11 +129,7 @@ SPD is distributed by Mendeley Data under a CC-BY-4.0 licence:
 > Álvarez García F. (2019). *SpotGenTrack Popularity Dataset* (V1)
 > [Data set]. Mendeley Data. <https://doi.org/10.17632/4m2x4zngny.1>
 
-Download the archive and extract it into `data/raw/`. The exact layout
-of the archive varies slightly between mirrors (for example
-`Data Sources/spotify_tracks.csv`); the notebook auto-detects the CSV
-files by partial filename match, so the folder structure underneath
-`data/raw/` does not matter.
+Download the archive and extract it into `data/raw/`.
 
 Only the Spotify audio and metadata tables are used — the Genius-derived
 lyric table that ships with SPD is intentionally excluded from this
@@ -166,12 +157,9 @@ Run all cells top to bottom. The notebook:
 ## AI Usage Statement
 
 Generative AI tools were used for language editing and as an aid during
-the literature search. All content was reviewed and verified by the
-author.
+the literature search, and also visualising the data in the code, All content was reviewed and verified by the author.
 
 ## Licence
 
 Code in this repository is released under the MIT licence.
-The SPD dataset is distributed by its original authors under CC-BY-4.0;
-please cite both the dataset and the companion paper, as listed in
-`reports/references.bib`.
+The SPD dataset is distributed by its original authors under CC-BY-4.0.
