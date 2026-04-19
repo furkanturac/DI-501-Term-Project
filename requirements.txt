@@ -1,0 +1,20 @@
+# DI 501 Term Project — Python dependencies
+# Pinned to reasonably recent stable releases.
+# Regenerate with: pip freeze > requirements.txt
+
+# Core numerics & data handling
+numpy>=1.26,<3.0
+pandas>=2.1,<3.0
+scipy>=1.11,<2.0
+
+# Plotting
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+
+# Machine learning
+scikit-learn>=1.4,<2.0
+
+# Jupyter
+jupyter>=1.0
+ipykernel>=6.28
+notebook>=7.0
